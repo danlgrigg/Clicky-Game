@@ -1,8 +1,8 @@
 .navbar {
-    background-color: blueviolet;
+    background-color: cornflowerblue;
     color: whitesmoke;
     text-align: center;
     font-size: 2rem;
-    display: flexbox;
+    /* display: flexbox; */
     
 }

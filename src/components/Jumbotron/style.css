@@ -1,0 +1,10 @@
+.jumbotron{
+    background-image: url("./Pac12-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50rem;
+    color: whitesmoke;
+    border-bottom: solid blue .5rem;
+    
+}
+

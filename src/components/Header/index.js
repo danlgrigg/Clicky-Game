@@ -17,13 +17,12 @@ function Header() {
       {' Pac-12 Clicky Game'}
     </Navbar.Brand>
     <div>
-        <a class="navbar-item align-center">Click an Image to Play!
+        <a class="navbar-item text-align-center">Click an Image to Play!
         </a>
-        <a class="navbar-item align-right" id="score-counter">Current Score: 0
+        <a class="navbar-item text-align-right" id="score-counter">Current Score: 0
         </a>
-        <a class="navbar-item align right" id="top-score-counter">Top Score: 0
+        <a class="navbar-item text-align right" id="top-score-counter">Top Score: 0
         </a>
-        
         </div>
   </Navbar>
 
