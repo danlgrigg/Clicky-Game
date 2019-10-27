@@ -5,10 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>
-      </header>
-
-      <Children name={""}/>
+      <Header/>
+      <Jumbotron/>
+      <Container/>
+      {/* <Children name={""}/> */}
+      <Footer/>
     </div>
   );
 }
