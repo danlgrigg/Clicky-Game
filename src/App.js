@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header';
+import Jumbotron from './components/Jumbotron'
+import Container from './components/Container'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
