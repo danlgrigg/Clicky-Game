@@ -3,7 +3,7 @@ import "./style.css";
 import Navbar from "react-bootstrap/Navbar"
 import Logo from "./Pac-12_logo.png"
 
-function Header() {
+const Header = props => {
   return (
     <Navbar bg="ligth" variant="dark">
     <Navbar.Brand href="/">
@@ -17,13 +17,13 @@ function Header() {
       {' Pac-12 Clicky Game'}
     </Navbar.Brand>
     <div>
-        <a class="navbar-item text-align-center">Click an Image to Play!
+        <a class="navbar-item justify-content-center">Click an Image to Play!
         </a>
-        <a class="navbar-item text-align-right" id="score-counter">Current Score: 0
+        <a class="navbar-item justify-content-end" id="score-counter">Current Score: {props.score}
         </a>
-        <a class="navbar-item text-align right" id="top-score-counter">Top Score: 0
+        <a class="navbar-item justify-content-end" id="top-score-counter">Top Score: {props.topScore}
         </a>
-        </div>
+        </div> 
   </Navbar>
 
    

@@ -1,13 +1,18 @@
-import React from "react";
+import React from "./node_modules/react";
 import "./style.css";
-import Card from "react-bootstrap/Cards";
+import Card from "./node_modules/react-bootstrap/Cards";
 
-function cardContainer() {
+const CardContainer = props => {
   return (
-    <Card style={{ width: "10rem", margin: "2rem" }}>
-      <Card.Img src={props.children} />
+    <Card style={{ width: "10rem", margin: "2rem" }} 
+          value={props.id}
+          onClick={()=>props.handleClick(props.id)}
+          >
+      <Card.Img src={props.image}
+                alt={props.name} 
+                />
     </Card>
   );
 }
 
-export default cardContainer;
+export default CardContainer;
