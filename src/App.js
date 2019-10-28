@@ -1,9 +1,17 @@
 import React from 'react';
 import Header from './components/Header';
-import Jumbotron from './components/Jumbotron'
-import Container from './components/Container'
-import Footer from './components/Footer'
+import Jumbotron from './components/Jumbotron';
+import cardContainer from './components/cardContainer';
+import Footer from './components/Footer';
 import './App.css';
+import Pictures from "./components/Pictures.json";
+
+// class App extends Component {
+  
+//   state = {
+//     Pictures
+//   };
+// }
 
 function App() {
   return (

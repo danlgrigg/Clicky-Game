@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Card from "react-bootstrap/Cards";
 
-function Container() {
+function cardContainer() {
   return (
     <Card style={{ width: "10rem", margin: "2rem" }}>
       <Card.Img src={props.children} />
@@ -10,4 +10,4 @@ function Container() {
   );
 }
 
-export default Container;
+export default cardContainer;
