@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name":"UW Huskies",
+    "image": "./assets/images/uw-huskies.png"
+  },
+  {
+    "id": 2,
+    "name": "WSU Cougars",
+    "image": "./assets/images/wsu-cougars.png"
+    
+  },
+  
+  {
+    "id": 3,
+    "name": "UO Ducks",
+    "image": "./assets/images/uo-ducks.png"
+    
+  },
+  
+  {
+    "id": 4,
+    "name": "OSU Beavers",
+    "image": "./assets/images/osu-beavers.png"
+    
+  },
+  
+  {
+    "id": 5,
+    "name": "Stanford Cardinal",
+    "image": "./assets/images/stanford-cardinal.png"
+    
+  },
+  
+  {
+    "id": 6,
+    "name": "Cal Bears",
+    "image": "./assets/images/uc-bears.png"
+    
+  },
+  
+  {
+    "id": 7,
+    "name": "UCLA Bruins",
+    "image": "./assets/images/ucla-bruins.png"
+    
+  },
+  
+  {
+    "id": 8,
+    "name": "USC Trojans",
+    "image": "./assets/images/usc-trojans.png"
+    
+  },
+  
+  {
+    "id": 9,
+    "name": "UA Wildcats",
+    "image": "./assets/images/ua-wildcats.png"
+    
+  },
+  
+  {
+    "id": 10,
+    "name": "ASU Sundevils",
+    "image": "./assets/images/asu-sundevils.png"
+    
+  },
+  
+  {
+    "id": 11,
+    "name": "Utah Utes",
+    "image": "./assets/images/uu-utes.png"
+    
+  },
+  
+  {
+    "id": 12,
+    "name": "CU Buffs",
+    "image": "./assets/images/cu-buffs.png"
+    
+  }
+  
+]
